@@ -54,7 +54,7 @@ final="J2"
 return final;
 }
 
-const jugador1= prompt("Escriba una de las opciones del juego de piedra, papel o tijera");
-const jugador2= prompt("Escriba una de las opciones del juego de piedra, papel o tijera");
+const jugador1= prompt("Escriba una de las opciones del juego de Piedra, Papel o Tijera");
+const jugador2= prompt("Escriba una de las opciones del juego de piedra, Papel o Tijera");
 
 console.log(game(jugador1,jugador2));

@@ -1,6 +1,5 @@
 alert("Por favor responder las respuestas que se te piden con lo que se te indica");
 let nombre =prompt("Como te llamas")
-let frio= prompt("Te gusta el frio");
 let color= prompt("Que color te gusta mas negro o cafe");
 let parteAlta= prompt("Te gusta las chamarra o sudadera");
 let parteBja=prompt("Te gustan los pants o patalon");
@@ -105,13 +104,8 @@ else if((color.toLocaleLowerCase() == "negro") && (parteAlta.toLocaleLowerCase()
  alert(`Hola ${nombre} te sugerimos este atuendo para ti ☺️`);
     document.write("<img src='imagenesvestimenta/sudadera,pantalon,bota,negro.jpg' width='200' height='200'>")
 }
-else if(frio.toLocaleLowerCase() == "no"){
-    alert("No existe combinacion")
-}
 else{
     alert("No exite combinacion lo sentimos")
 }
-
-
 
 //contador de numeros  

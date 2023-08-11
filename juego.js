@@ -50,11 +50,12 @@ else if(parametro2=="Piedra" & parametro1== "Tijeras"){
 final="J2"
 }
 
+let resultado = `Gana el jugador numero ${final}`
 
-return final;
+return  resultado;
 }
 
-const jugador1= prompt("Escriba una de las opciones del juego de Piedra, Papel o Tijera");
-const jugador2= prompt("Escriba una de las opciones del juego de piedra, Papel o Tijera");
+const jugador1= prompt("Escriba una de las opciones del juego de Piedra, Papel o Tijeras");
+const jugador2= prompt("Escriba una de las opciones del juego de piedra, Papel o Tijeras");
 
-console.log(game(jugador1,jugador2));
+alert(game(jugador1,jugador2));
